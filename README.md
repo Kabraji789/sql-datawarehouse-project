@@ -1,2 +1,2 @@
-# sql-datawarehouse-project
-building a DW with modern server, etl processes, data modeling and analytics
+# data warehouse and analytics project
+this project demonstrates data warehousing and analytics solution, from builsing the datawarehouse to generating analytical insights.
