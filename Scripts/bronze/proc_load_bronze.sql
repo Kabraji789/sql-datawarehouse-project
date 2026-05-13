@@ -29,7 +29,7 @@ BEGIN
 		PRINT '>> loding duration' + CAST(DATEDIFF(second,@start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '---------------------------';
 		SET @start_time = GETDATE();
-		TRUNCATE TABLE bronze.crm_cust_info;
+		TRUNCATE TABLE bronze.crm_prd_info;
 		BULK INSERT bronze.crm_prd_info
 		FROM 'G:\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
 		WITH (
